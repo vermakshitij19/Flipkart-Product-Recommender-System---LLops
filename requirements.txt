@@ -1,0 +1,13 @@
+langchain==1.4.0
+langchain-classic==1.0.8
+langchain-astradb==1.0.0
+langchain-groq==1.1.3
+langchain-huggingface==1.2.2
+langchain-community==0.4.2
+langchain-core==1.6.2
+datasets
+pypdf
+python-dotenv
+pandas
+flask
+prometheus_client
