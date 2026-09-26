@@ -9,7 +9,7 @@ class config:
     ASTRA_DB_KEY_SPACE = os.getenv("ASTRA_DB_KEY_SPACE")
     GROQ_API_KEY = os.getenv("GROQ_API_KEY")
     EMBEDDING_MODEL = "BAAI/bge-base-en-v1.5"
-    RAG_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
+    RAG_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 
 
 Config = config
